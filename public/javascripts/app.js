@@ -6,7 +6,7 @@ app.controller("FibCtrl", function($scope){
     $scope.bfib = 1;
     //everything starts off with step 1 (b = 1, a = 0) already in place
     //including the sequence and number of steps
-    $scope.sequence = [0, 1];
+    $scope.sequence = [0, 1, 1];
     var steps = 1;
 
     $scope.recurseFib = function(){
