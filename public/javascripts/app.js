@@ -37,14 +37,14 @@ app.controller("FibCtrl", function($scope){
     }
     function itFib(n){
         if(n < 2) return 1;
-        var a = 0, b = 1, c = a + b;
+        var a = 0, b = 1, current = a + b;
         for(var i = 0; i < n - 1; i++)
         {
             console.count("iterate");
             a = b;
-            b = c;
-            c += a;
+            b = current;
+            current += a;
         }
-        return [a, b, c];
+        return [a, b, current];
     }
 });
