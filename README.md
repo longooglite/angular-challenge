@@ -31,4 +31,5 @@ This is a simple test of basic CS fundamentals as well as basic Angular knowledg
 
 
 ### Solution Discussion:
-- Your solution explanation goes here.
+- Script files: angular.min.js, app.js
+-- Normally I'd 
