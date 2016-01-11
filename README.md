@@ -38,7 +38,7 @@ Normally, I'd separate out the controller into its own separate file. In fact, n
 
 ####app.js
 
-I named the app ngChallenge because it amused me, normally I'd name it something a little more descriptive, like fibChallenge. ngChallenge still works, because the challenge is as much about using Angular, rather than just about the sequence. 
+I named the app ngChallenge because it amused me, normally I'd name it something a little more descriptive, like fibChallenge. ngChallenge still works, because the challenge is as much about using Angular as it is about the sequence. 
 
 The controller, first, defines the three variables to hold the values for the current sequence: a + b = current number. Then, it defines an array to show the sequence of Fibonacci numbers. Then, it defines the current number of steps the app has taken through the sequence. It starts at one, because 0 + 1 = 1 is technically the first step.
 
