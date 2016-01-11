@@ -3,7 +3,7 @@ app.controller("FibCtrl", function($scope){
     $scope.curfib = 1;
     $scope.afib = 0;
     $scope.bfib = 1;
-    $scope.sequence = [];
+    $scope.sequence = [1];
     var steps = 1;
     $scope.recurseFib = function(){
         steps++;
